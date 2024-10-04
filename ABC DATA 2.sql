@@ -105,3 +105,16 @@ INSERT INTO customers (customer_id, first_name, last_name, email) VALUES
     (15, 11, 1),
     (16, 12, 2),
     (16, 13, 3);          
+    
+SELECT product_id, product_name, price 
+FROM products 
+ORDER BY price DESC 
+LIMIT 1;
+
+SELECT order_id
+FROM order_items
+ORDER BY quantity
+LIMIT 1;
+
+
+    
